@@ -1,0 +1,16 @@
+{
+  "name": "mongodb_todo_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fastify": "^3.5.1",
+    "mongodb": "^6.5.0"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Simon Fäs",
+  "license": "ISC"
+}
