@@ -6,7 +6,7 @@ The TODO-App is using the [Fastify](https://www.fastify.io/) Framework and [Mong
 It's code from [Github](https://github.com/cockroachdb/cockroachdb-todo-apps/tree/master/NodeJS_ToDoApp_kerolloz) modified to use MongoDB instead of CockroachDB.
 
 ## How to set up
-To set up an devcontainer, you first have to fork the project.
+To set up an Dev Container, you first have to fork the project.
 Then click the following button
 
 [
@@ -18,6 +18,6 @@ Then click the following button
 
 OR 
 
-You click the green button in VSCode in the bottom left corner, choose the option "Clone Repository in Container Volume" and enter the URL of the forked repository
+You click the green button in VSCode in the bottom left corner, choose the option "Clone Repository in Container Volume" and enter the URL of the forked repository.
 
-
+After these steps you have to create a .env-File and insert variables according to the env-schema.txt. Then you have to reload the Dev Container.
