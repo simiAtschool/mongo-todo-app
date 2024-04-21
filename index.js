@@ -2,9 +2,8 @@ const fastify = require("fastify")({ logger: false });
 const { MongoClient, ObjectId } = require('mongodb');
 
 // Adress of the mongo container, when start DB is in the container and the app is in the host
-// let uri = "mongodb://root:example@localhost:27017/tododb?authSource=admin";
-
-let uri = "mongodb://root:example@mongo:27017/tododb?authSource=admin";
+console.log(process.env.MONGO_URI);
+let uri = process.env.MONGO_URI + "tododb?authSource=admin";
 const client = new MongoClient(uri);
 client.connect();
 
